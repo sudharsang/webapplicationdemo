@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5999B6C9-A792-45BE-88EA-3A4D4B5935F9}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+		WebAppDemo.testsettings = WebAppDemo.testsettings
+		WebApplicationDemo.vsmdi = WebApplicationDemo.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationDemo", "WebApplicationDemo\WebApplicationDemo.csproj", "{6F4BD28F-2C22-44CA-83AC-7D811693D517}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessApi", "Business\BusinessApi.csproj", "{67AFC791-FCDE-4EDF-BE2B-33DF9D377A93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebProjectTest", "WebProjectTest\WebProjectTest.csproj", "{9356A85F-31C9-4253-866C-CEE26DB8C4AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessObjects", "BusinessObjects\BusinessObjects.csproj", "{DD09F001-5039-4558-B657-D5191D74C393}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.aditi.com/tfs/corp
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = WebApplicationDemo\\WebApplicationDemo.csproj
+		SccProjectName1 = WebApplicationDemo
+		SccLocalPath1 = WebApplicationDemo
+		SccProjectUniqueName2 = WebProjectTest\\WebProjectTest.csproj
+		SccProjectName2 = WebProjectTest
+		SccLocalPath2 = WebProjectTest
+		SccProjectUniqueName3 = BusinessObjects\\BusinessObjects.csproj
+		SccProjectName3 = BusinessObjects
+		SccLocalPath3 = BusinessObjects
+		SccProjectUniqueName4 = Business\\BusinessApi.csproj
+		SccProjectName4 = Business
+		SccLocalPath4 = Business
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = WebApplicationDemo.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F4BD28F-2C22-44CA-83AC-7D811693D517}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F4BD28F-2C22-44CA-83AC-7D811693D517}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F4BD28F-2C22-44CA-83AC-7D811693D517}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F4BD28F-2C22-44CA-83AC-7D811693D517}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67AFC791-FCDE-4EDF-BE2B-33DF9D377A93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67AFC791-FCDE-4EDF-BE2B-33DF9D377A93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67AFC791-FCDE-4EDF-BE2B-33DF9D377A93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67AFC791-FCDE-4EDF-BE2B-33DF9D377A93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9356A85F-31C9-4253-866C-CEE26DB8C4AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9356A85F-31C9-4253-866C-CEE26DB8C4AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9356A85F-31C9-4253-866C-CEE26DB8C4AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9356A85F-31C9-4253-866C-CEE26DB8C4AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD09F001-5039-4558-B657-D5191D74C393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD09F001-5039-4558-B657-D5191D74C393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD09F001-5039-4558-B657-D5191D74C393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD09F001-5039-4558-B657-D5191D74C393}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
